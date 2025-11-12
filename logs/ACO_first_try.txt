@@ -1,0 +1,379 @@
+
+============================================================
+Processing: PyVRP/CVRP/X-n101-k25.vrp
+============================================================
+Loaded VRP instance: 101 nodes, capacity: 206
+Depot: node 2
+Generation 0: Best quality = 40726.32, Number of routes = 27
+Generation 1: Best quality = 39359.59, Number of routes = 26
+Generation 2: Best quality = 41168.67, Number of routes = 27
+Generation 3: Best quality = 40570.46, Number of routes = 27
+Generation 4: Best quality = 40727.48, Number of routes = 27
+Generation 5: Best quality = 39937.53, Number of routes = 27
+Generation 6: Best quality = 40291.79, Number of routes = 27
+Generation 7: Best quality = 41313.38, Number of routes = 27
+Generation 8: Best quality = 41119.76, Number of routes = 27
+Generation 9: Best quality = 41893.36, Number of routes = 27
+Generation 10: Best quality = 42167.76, Number of routes = 27
+Generation 11: Best quality = 41315.25, Number of routes = 27
+Generation 12: Best quality = 41507.87, Number of routes = 27
+Generation 13: Best quality = 41175.97, Number of routes = 27
+Generation 14: Best quality = 41892.24, Number of routes = 27
+Generation 15: Best quality = 40759.72, Number of routes = 27
+Generation 16: Best quality = 40450.88, Number of routes = 27
+Generation 17: Best quality = 41439.13, Number of routes = 27
+Generation 18: Best quality = 41160.04, Number of routes = 27
+Generation 19: Best quality = 40754.65, Number of routes = 27
+Generation 20: Best quality = 40079.12, Number of routes = 26
+Generation 21: Best quality = 40531.54, Number of routes = 26
+Generation 22: Best quality = 40160.59, Number of routes = 27
+Generation 23: Best quality = 41373.11, Number of routes = 26
+Generation 24: Best quality = 41156.90, Number of routes = 27
+Generation 25: Best quality = 40618.15, Number of routes = 27
+Generation 26: Best quality = 37546.01, Number of routes = 26
+Generation 27: Best quality = 40348.70, Number of routes = 27
+Generation 28: Best quality = 41544.92, Number of routes = 26
+Generation 29: Best quality = 41980.05, Number of routes = 27
+Generation 30: Best quality = 41483.44, Number of routes = 27
+Generation 31: Best quality = 42209.07, Number of routes = 27
+Generation 32: Best quality = 41840.50, Number of routes = 27
+Generation 33: Best quality = 41979.58, Number of routes = 27
+Generation 34: Best quality = 40874.02, Number of routes = 26
+Generation 35: Best quality = 41396.16, Number of routes = 27
+Generation 36: Best quality = 41832.67, Number of routes = 26
+Generation 37: Best quality = 40447.98, Number of routes = 26
+Generation 38: Best quality = 41424.28, Number of routes = 27
+Generation 39: Best quality = 41355.38, Number of routes = 27
+Generation 40: Best quality = 39582.90, Number of routes = 27
+Generation 41: Best quality = 40758.59, Number of routes = 26
+Generation 42: Best quality = 41393.71, Number of routes = 26
+Generation 43: Best quality = 38403.77, Number of routes = 26
+Generation 44: Best quality = 39792.24, Number of routes = 27
+Generation 45: Best quality = 40992.67, Number of routes = 27
+Generation 46: Best quality = 42881.00, Number of routes = 26
+Generation 47: Best quality = 41094.39, Number of routes = 27
+Generation 48: Best quality = 40896.89, Number of routes = 27
+Generation 49: Best quality = 40594.33, Number of routes = 27
+
+Best solution for PyVRP/CVRP/X-n101-k25.vrp:
+Total distance: 40594.33
+Number of routes: 27
+  Route 1: [1, np.int64(80), np.int64(51), np.int64(31), np.int64(86), np.int64(65), 1] (demand: 206.0/206)
+  Route 2: [1, np.int64(41), np.int64(95), np.int64(9), np.int64(35), 1] (demand: 206.0/206)
+  Route 3: [1, np.int64(59), np.int64(13), np.int64(79), np.int64(44), np.int64(30), np.int64(88), 8, 1] (demand: 205.0/206)
+  Route 4: [1, np.int64(68), np.int64(83), np.int64(58), np.int64(66), np.int64(77), 1] (demand: 202.0/206)
+  Route 5: [1, np.int64(97), np.int64(81), np.int64(18), np.int64(27), 1] (demand: 202.0/206)
+  Route 6: [1, np.int64(64), np.int64(62), np.int64(25), np.int64(74), 1] (demand: 196.0/206)
+  Route 7: [1, np.int64(57), np.int64(4), np.int64(89), np.int64(60), 1] (demand: 199.0/206)
+  Route 8: [1, np.int64(72), np.int64(52), np.int64(84), 48, 1] (demand: 205.0/206)
+  Route 9: [1, np.int64(36), np.int64(71), np.int64(2), np.int64(16), 1] (demand: 204.0/206)
+  Route 10: [1, np.int64(34), np.int64(54), np.int64(28), 1] (demand: 199.0/206)
+  Route 11: [1, np.int64(22), np.int64(101), np.int64(24), np.int64(78), np.int64(73), 1] (demand: 204.0/206)
+  Route 12: [1, np.int64(76), np.int64(94), np.int64(33), 1] (demand: 199.0/206)
+  Route 13: [1, np.int64(6), np.int64(11), np.int64(40), np.int64(46), 1] (demand: 197.0/206)
+  Route 14: [1, np.int64(47), np.int64(96), np.int64(20), np.int64(82), np.int64(12), np.int64(15), 1] (demand: 195.0/206)
+  Route 15: [1, np.int64(14), np.int64(75), np.int64(56), 1] (demand: 191.0/206)
+  Route 16: [1, np.int64(42), np.int64(21), np.int64(23), 90, 1] (demand: 206.0/206)
+  Route 17: [1, np.int64(70), np.int64(17), np.int64(10), 1] (demand: 187.0/206)
+  Route 18: [1, np.int64(5), np.int64(19), np.int64(26), 1] (demand: 204.0/206)
+  Route 19: [1, np.int64(69), np.int64(55), np.int64(87), 1] (demand: 192.0/206)
+  Route 20: [1, np.int64(45), np.int64(61), np.int64(37), 1] (demand: 203.0/206)
+  Route 21: [1, np.int64(93), np.int64(91), np.int64(85), np.int64(29), 1] (demand: 198.0/206)
+  Route 22: [1, np.int64(43), np.int64(49), 39, 1] (demand: 201.0/206)
+  Route 23: [1, np.int64(67), np.int64(50), np.int64(3), np.int64(7), 1] (demand: 204.0/206)
+  Route 24: [1, np.int64(98), np.int64(92), np.int64(63), 1] (demand: 161.0/206)
+  Route 25: [1, np.int64(100), np.int64(53), 1] (demand: 165.0/206)
+  Route 26: [1, np.int64(32), np.int64(99), 1] (demand: 146.0/206)
+  Route 27: [1, 38, 1] (demand: 70.0/206)
+
+============================================================
+Processing: PyVRP/CVRP/X-n106-k14.vrp
+============================================================
+Loaded VRP instance: 106 nodes, capacity: 600
+Depot: node 2
+Generation 0: Best quality = 32692.87, Number of routes = 14
+Generation 1: Best quality = 32852.79, Number of routes = 14
+Generation 2: Best quality = 33438.55, Number of routes = 14
+Generation 3: Best quality = 32728.21, Number of routes = 14
+Generation 4: Best quality = 32929.82, Number of routes = 14
+Generation 5: Best quality = 33721.68, Number of routes = 14
+Generation 6: Best quality = 32835.40, Number of routes = 14
+Generation 7: Best quality = 32857.90, Number of routes = 14
+Generation 8: Best quality = 33725.64, Number of routes = 14
+Generation 9: Best quality = 32896.03, Number of routes = 14
+Generation 10: Best quality = 33917.97, Number of routes = 14
+Generation 11: Best quality = 33115.03, Number of routes = 14
+Generation 12: Best quality = 32390.09, Number of routes = 14
+Generation 13: Best quality = 32699.94, Number of routes = 14
+Generation 14: Best quality = 32131.65, Number of routes = 14
+Generation 15: Best quality = 33287.15, Number of routes = 14
+Generation 16: Best quality = 32684.71, Number of routes = 14
+Generation 17: Best quality = 32477.81, Number of routes = 14
+Generation 18: Best quality = 32878.74, Number of routes = 14
+Generation 19: Best quality = 33104.33, Number of routes = 14
+Generation 20: Best quality = 32298.02, Number of routes = 14
+Generation 21: Best quality = 32531.50, Number of routes = 14
+Generation 22: Best quality = 33674.35, Number of routes = 14
+Generation 23: Best quality = 32576.62, Number of routes = 14
+Generation 24: Best quality = 31858.88, Number of routes = 14
+Generation 25: Best quality = 32352.36, Number of routes = 14
+Generation 26: Best quality = 32718.85, Number of routes = 14
+Generation 27: Best quality = 33242.52, Number of routes = 14
+Generation 28: Best quality = 33195.08, Number of routes = 14
+Generation 29: Best quality = 33306.76, Number of routes = 14
+Generation 30: Best quality = 33317.52, Number of routes = 14
+Generation 31: Best quality = 33202.96, Number of routes = 14
+Generation 32: Best quality = 33884.07, Number of routes = 14
+Generation 33: Best quality = 31924.63, Number of routes = 14
+Generation 34: Best quality = 31743.51, Number of routes = 14
+Generation 35: Best quality = 32385.84, Number of routes = 14
+Generation 36: Best quality = 32471.57, Number of routes = 14
+Generation 37: Best quality = 33647.72, Number of routes = 14
+Generation 38: Best quality = 32302.35, Number of routes = 14
+Generation 39: Best quality = 32401.94, Number of routes = 14
+Generation 40: Best quality = 32759.70, Number of routes = 14
+Generation 41: Best quality = 32216.03, Number of routes = 14
+Generation 42: Best quality = 32320.58, Number of routes = 14
+Generation 43: Best quality = 33961.93, Number of routes = 14
+Generation 44: Best quality = 32830.97, Number of routes = 14
+Generation 45: Best quality = 32997.94, Number of routes = 14
+Generation 46: Best quality = 32409.97, Number of routes = 14
+Generation 47: Best quality = 32834.02, Number of routes = 14
+Generation 48: Best quality = 32448.36, Number of routes = 14
+Generation 49: Best quality = 32070.11, Number of routes = 14
+
+Best solution for PyVRP/CVRP/X-n106-k14.vrp:
+Total distance: 32070.11
+Number of routes: 14
+  Route 1: [1, np.int64(15), np.int64(3), np.int64(84), np.int64(78), np.int64(55), np.int64(86), np.int64(68), np.int64(14), 1] (demand: 575.0/600)
+  Route 2: [1, np.int64(21), np.int64(17), np.int64(56), np.int64(4), np.int64(69), np.int64(96), np.int64(74), np.int64(90), 1] (demand: 565.0/600)
+  Route 3: [1, np.int64(12), np.int64(72), np.int64(22), np.int64(50), np.int64(8), np.int64(76), np.int64(105), 1] (demand: 567.0/600)
+  Route 4: [1, np.int64(80), np.int64(28), np.int64(102), np.int64(88), np.int64(77), np.int64(61), np.int64(52), 1] (demand: 568.0/600)
+  Route 5: [1, np.int64(2), np.int64(13), np.int64(27), np.int64(91), np.int64(25), np.int64(44), np.int64(104), 1] (demand: 581.0/600)
+  Route 6: [1, np.int64(83), np.int64(35), np.int64(75), np.int64(100), np.int64(98), np.int64(54), np.int64(29), np.int64(47), 1] (demand: 595.0/600)
+  Route 7: [1, np.int64(26), np.int64(57), np.int64(48), np.int64(81), np.int64(24), np.int64(5), np.int64(43), np.int64(31), 1] (demand: 588.0/600)
+  Route 8: [1, np.int64(63), np.int64(103), np.int64(93), np.int64(16), np.int64(101), np.int64(46), np.int64(45), np.int64(79), 1] (demand: 595.0/600)
+  Route 9: [1, np.int64(95), np.int64(65), np.int64(106), np.int64(58), np.int64(41), np.int64(38), np.int64(30), np.int64(9), np.int64(37), 1] (demand: 588.0/600)
+  Route 10: [1, np.int64(23), np.int64(42), np.int64(19), np.int64(11), np.int64(33), np.int64(36), np.int64(39), np.int64(66), np.int64(18), 1] (demand: 599.0/600)
+  Route 11: [1, np.int64(87), np.int64(92), np.int64(89), np.int64(70), np.int64(10), np.int64(94), np.int64(67), 1] (demand: 572.0/600)
+  Route 12: [1, np.int64(62), np.int64(40), np.int64(51), np.int64(82), np.int64(7), np.int64(71), np.int64(99), 1] (demand: 575.0/600)
+  Route 13: [1, np.int64(85), np.int64(59), np.int64(49), np.int64(32), np.int64(64), np.int64(73), np.int64(97), np.int64(6), 1] (demand: 573.0/600)
+  Route 14: [1, np.int64(34), np.int64(53), np.int64(20), 60, 1] (demand: 323.0/600)
+
+============================================================
+Processing: PyVRP/CVRP/X-n110-k13.vrp
+============================================================
+Loaded VRP instance: 110 nodes, capacity: 66
+Depot: node 2
+Generation 0: Best quality = 27664.21, Number of routes = 13
+Generation 1: Best quality = 27585.24, Number of routes = 13
+Generation 2: Best quality = 27343.51, Number of routes = 13
+Generation 3: Best quality = 28981.12, Number of routes = 13
+Generation 4: Best quality = 28008.24, Number of routes = 13
+Generation 5: Best quality = 27411.01, Number of routes = 13
+Generation 6: Best quality = 26223.28, Number of routes = 13
+Generation 7: Best quality = 28024.57, Number of routes = 13
+Generation 8: Best quality = 26683.32, Number of routes = 13
+Generation 9: Best quality = 27063.01, Number of routes = 13
+Generation 10: Best quality = 27991.08, Number of routes = 13
+Generation 11: Best quality = 27322.08, Number of routes = 13
+Generation 12: Best quality = 27706.06, Number of routes = 13
+Generation 13: Best quality = 26319.34, Number of routes = 13
+Generation 14: Best quality = 27948.53, Number of routes = 13
+Generation 15: Best quality = 27080.74, Number of routes = 13
+Generation 16: Best quality = 26854.26, Number of routes = 13
+Generation 17: Best quality = 27414.01, Number of routes = 13
+Generation 18: Best quality = 26275.21, Number of routes = 13
+Generation 19: Best quality = 27994.59, Number of routes = 13
+Generation 20: Best quality = 28845.21, Number of routes = 13
+Generation 21: Best quality = 26355.14, Number of routes = 13
+Generation 22: Best quality = 28750.10, Number of routes = 13
+Generation 23: Best quality = 27842.49, Number of routes = 13
+Generation 24: Best quality = 28272.88, Number of routes = 13
+Generation 25: Best quality = 26523.38, Number of routes = 13
+Generation 26: Best quality = 28404.51, Number of routes = 13
+Generation 27: Best quality = 27034.54, Number of routes = 13
+Generation 28: Best quality = 27776.37, Number of routes = 13
+Generation 29: Best quality = 28141.54, Number of routes = 13
+Generation 30: Best quality = 27276.11, Number of routes = 13
+Generation 31: Best quality = 27534.12, Number of routes = 13
+Generation 32: Best quality = 26556.67, Number of routes = 13
+Generation 33: Best quality = 27941.23, Number of routes = 13
+Generation 34: Best quality = 27247.92, Number of routes = 13
+Generation 35: Best quality = 28014.01, Number of routes = 13
+Generation 36: Best quality = 26921.99, Number of routes = 13
+Generation 37: Best quality = 27873.88, Number of routes = 13
+Generation 38: Best quality = 28349.26, Number of routes = 13
+Generation 39: Best quality = 27249.20, Number of routes = 13
+Generation 40: Best quality = 28042.45, Number of routes = 13
+Generation 41: Best quality = 27957.75, Number of routes = 13
+Generation 42: Best quality = 27640.89, Number of routes = 13
+Generation 43: Best quality = 26108.87, Number of routes = 13
+Generation 44: Best quality = 26868.22, Number of routes = 13
+Generation 45: Best quality = 26846.44, Number of routes = 13
+Generation 46: Best quality = 27805.58, Number of routes = 13
+Generation 47: Best quality = 27156.74, Number of routes = 13
+Generation 48: Best quality = 26593.96, Number of routes = 13
+Generation 49: Best quality = 26522.11, Number of routes = 13
+
+Best solution for PyVRP/CVRP/X-n110-k13.vrp:
+Total distance: 26522.11
+Number of routes: 13
+  Route 1: [1, np.int64(15), np.int64(61), np.int64(105), np.int64(70), np.int64(34), np.int64(10), np.int64(5), np.int64(102), np.int64(19), 1] (demand: 64.0/66)
+  Route 2: [1, np.int64(84), np.int64(23), np.int64(62), np.int64(25), np.int64(26), np.int64(104), np.int64(85), np.int64(77), np.int64(56), 1] (demand: 63.0/66)
+  Route 3: [1, np.int64(9), np.int64(63), np.int64(11), np.int64(74), np.int64(36), np.int64(48), np.int64(87), np.int64(89), np.int64(96), 1] (demand: 66.0/66)
+  Route 4: [1, np.int64(50), np.int64(42), np.int64(13), np.int64(59), np.int64(101), np.int64(20), np.int64(91), np.int64(79), np.int64(47), 1] (demand: 65.0/66)
+  Route 5: [1, np.int64(4), np.int64(2), np.int64(55), np.int64(44), np.int64(94), np.int64(100), np.int64(37), np.int64(66), 1] (demand: 65.0/66)
+  Route 6: [1, np.int64(60), np.int64(40), np.int64(18), np.int64(28), np.int64(29), np.int64(72), np.int64(81), np.int64(32), np.int64(51), 1] (demand: 64.0/66)
+  Route 7: [1, np.int64(53), np.int64(64), np.int64(73), np.int64(76), np.int64(22), np.int64(97), np.int64(78), np.int64(12), 1] (demand: 63.0/66)
+  Route 8: [1, np.int64(109), np.int64(92), np.int64(39), np.int64(80), np.int64(98), np.int64(107), np.int64(93), np.int64(21), 1] (demand: 65.0/66)
+  Route 9: [1, np.int64(49), np.int64(58), np.int64(24), np.int64(17), np.int64(82), np.int64(30), np.int64(95), 1] (demand: 63.0/66)
+  Route 10: [1, np.int64(90), np.int64(68), np.int64(35), np.int64(46), np.int64(16), np.int64(54), np.int64(27), np.int64(88), np.int64(86), 1] (demand: 63.0/66)
+  Route 11: [1, np.int64(106), np.int64(52), np.int64(6), np.int64(7), np.int64(110), np.int64(99), np.int64(67), np.int64(103), np.int64(57), 1] (demand: 63.0/66)
+  Route 12: [1, np.int64(3), np.int64(65), np.int64(108), np.int64(83), np.int64(8), np.int64(38), np.int64(43), np.int64(33), 1] (demand: 64.0/66)
+  Route 13: [1, np.int64(69), np.int64(45), np.int64(71), np.int64(14), np.int64(41), np.int64(75), 31, 1] (demand: 48.0/66)
+
+============================================================
+Processing: PyVRP/CVRP/X-n115-k10.vrp
+============================================================
+Loaded VRP instance: 115 nodes, capacity: 169
+Depot: node 2
+Generation 0: Best quality = 28190.01, Number of routes = 11
+Generation 1: Best quality = 28986.20, Number of routes = 10
+Generation 2: Best quality = 28846.27, Number of routes = 10
+Generation 3: Best quality = 28452.28, Number of routes = 10
+Generation 4: Best quality = 28821.91, Number of routes = 10
+Generation 5: Best quality = 27036.55, Number of routes = 10
+Generation 6: Best quality = 27502.30, Number of routes = 10
+Generation 7: Best quality = 27969.76, Number of routes = 10
+Generation 8: Best quality = 29157.32, Number of routes = 10
+Generation 9: Best quality = 27913.61, Number of routes = 10
+Generation 10: Best quality = 29904.66, Number of routes = 11
+Generation 11: Best quality = 29080.32, Number of routes = 10
+Generation 12: Best quality = 28511.75, Number of routes = 10
+Generation 13: Best quality = 29671.03, Number of routes = 10
+Generation 14: Best quality = 28062.57, Number of routes = 11
+Generation 15: Best quality = 30317.83, Number of routes = 10
+Generation 16: Best quality = 27269.38, Number of routes = 10
+Generation 17: Best quality = 30264.39, Number of routes = 10
+Generation 18: Best quality = 29587.19, Number of routes = 10
+Generation 19: Best quality = 28521.69, Number of routes = 10
+Generation 20: Best quality = 28791.35, Number of routes = 10
+Generation 21: Best quality = 29393.38, Number of routes = 10
+Generation 22: Best quality = 27930.93, Number of routes = 10
+Generation 23: Best quality = 28152.42, Number of routes = 10
+Generation 24: Best quality = 27726.02, Number of routes = 10
+Generation 25: Best quality = 27891.80, Number of routes = 10
+Generation 26: Best quality = 27694.98, Number of routes = 10
+Generation 27: Best quality = 29082.84, Number of routes = 11
+Generation 28: Best quality = 28251.61, Number of routes = 10
+Generation 29: Best quality = 28034.36, Number of routes = 10
+Generation 30: Best quality = 29289.64, Number of routes = 10
+Generation 31: Best quality = 27639.16, Number of routes = 10
+Generation 32: Best quality = 29620.02, Number of routes = 10
+Generation 33: Best quality = 30775.77, Number of routes = 10
+Generation 34: Best quality = 28836.29, Number of routes = 10
+Generation 35: Best quality = 28720.61, Number of routes = 10
+Generation 36: Best quality = 29500.17, Number of routes = 10
+Generation 37: Best quality = 28379.15, Number of routes = 10
+Generation 38: Best quality = 27191.68, Number of routes = 10
+Generation 39: Best quality = 28322.40, Number of routes = 11
+Generation 40: Best quality = 28898.46, Number of routes = 10
+Generation 41: Best quality = 29158.95, Number of routes = 10
+Generation 42: Best quality = 29501.76, Number of routes = 10
+Generation 43: Best quality = 28175.01, Number of routes = 10
+Generation 44: Best quality = 29881.03, Number of routes = 10
+Generation 45: Best quality = 27929.18, Number of routes = 10
+Generation 46: Best quality = 30535.79, Number of routes = 10
+Generation 47: Best quality = 28170.91, Number of routes = 10
+Generation 48: Best quality = 29127.80, Number of routes = 11
+Generation 49: Best quality = 28668.80, Number of routes = 10
+
+Best solution for PyVRP/CVRP/X-n115-k10.vrp:
+Total distance: 28668.80
+Number of routes: 10
+  Route 1: [1, np.int64(33), np.int64(79), np.int64(89), np.int64(106), np.int64(28), np.int64(45), np.int64(15), np.int64(41), np.int64(69), np.int64(10), np.int64(24), np.int64(26), np.int64(97), np.int64(66), np.int64(114), np.int64(47), np.int64(102), np.int64(21), np.int64(55), 1] (demand: 169.0/169)
+  Route 2: [1, np.int64(112), np.int64(65), np.int64(73), np.int64(35), np.int64(72), np.int64(103), np.int64(70), np.int64(52), np.int64(105), np.int64(3), np.int64(93), np.int64(48), np.int64(110), np.int64(88), np.int64(74), np.int64(107), np.int64(98), np.int64(59), 1] (demand: 169.0/169)
+  Route 3: [1, np.int64(16), np.int64(11), np.int64(43), np.int64(60), np.int64(96), np.int64(108), np.int64(100), np.int64(20), np.int64(87), np.int64(109), np.int64(61), np.int64(49), np.int64(32), np.int64(57), np.int64(34), np.int64(78), np.int64(82), np.int64(62), np.int64(77), 64, 1] (demand: 169.0/169)
+  Route 4: [1, np.int64(90), np.int64(18), np.int64(67), np.int64(17), np.int64(42), np.int64(92), np.int64(37), np.int64(12), np.int64(81), np.int64(39), np.int64(40), np.int64(68), np.int64(44), 1] (demand: 168.0/169)
+  Route 5: [1, np.int64(27), np.int64(8), np.int64(2), np.int64(75), np.int64(99), 1] (demand: 169.0/169)
+  Route 6: [1, np.int64(111), np.int64(51), np.int64(53), np.int64(22), np.int64(31), np.int64(30), np.int64(54), np.int64(83), np.int64(113), np.int64(86), np.int64(38), np.int64(91), np.int64(56), np.int64(104), np.int64(25), np.int64(71), np.int64(23), np.int64(50), np.int64(19), np.int64(94), np.int64(36), np.int64(80), np.int64(115), np.int64(95), np.int64(101), np.int64(63), np.int64(29), 1] (demand: 169.0/169)
+  Route 7: [1, np.int64(14), np.int64(76), np.int64(84), np.int64(85), np.int64(9), np.int64(13), 1] (demand: 164.0/169)
+  Route 8: [1, np.int64(4), np.int64(58), 46, 1] (demand: 106.0/169)
+  Route 9: [1, np.int64(7), 6, 1] (demand: 161.0/169)
+  Route 10: [1, 5, 1] (demand: 91.0/169)
+
+============================================================
+Processing: PyVRP/CVRP/X-n120-k6.vrp
+============================================================
+Loaded VRP instance: 120 nodes, capacity: 21
+Depot: node 2
+Generation 0: Best quality = 25956.77, Number of routes = 6
+Generation 1: Best quality = 28347.81, Number of routes = 6
+Generation 2: Best quality = 27640.40, Number of routes = 6
+Generation 3: Best quality = 27695.25, Number of routes = 6
+Generation 4: Best quality = 28207.61, Number of routes = 6
+Generation 5: Best quality = 26044.28, Number of routes = 6
+Generation 6: Best quality = 25480.36, Number of routes = 6
+Generation 7: Best quality = 26732.83, Number of routes = 6
+Generation 8: Best quality = 26298.81, Number of routes = 6
+Generation 9: Best quality = 25562.09, Number of routes = 6
+Generation 10: Best quality = 25262.28, Number of routes = 6
+Generation 11: Best quality = 26221.04, Number of routes = 6
+Generation 12: Best quality = 26760.76, Number of routes = 6
+Generation 13: Best quality = 27275.73, Number of routes = 6
+Generation 14: Best quality = 26469.42, Number of routes = 6
+Generation 15: Best quality = 25341.14, Number of routes = 6
+Generation 16: Best quality = 26525.17, Number of routes = 6
+Generation 17: Best quality = 26884.03, Number of routes = 6
+Generation 18: Best quality = 26785.11, Number of routes = 6
+Generation 19: Best quality = 27257.63, Number of routes = 6
+Generation 20: Best quality = 25613.46, Number of routes = 6
+Generation 21: Best quality = 25428.55, Number of routes = 6
+Generation 22: Best quality = 25918.07, Number of routes = 6
+Generation 23: Best quality = 27579.90, Number of routes = 6
+Generation 24: Best quality = 27095.13, Number of routes = 6
+Generation 25: Best quality = 27170.56, Number of routes = 6
+Generation 26: Best quality = 26093.12, Number of routes = 6
+Generation 27: Best quality = 26716.18, Number of routes = 6
+Generation 28: Best quality = 26661.34, Number of routes = 6
+Generation 29: Best quality = 26122.77, Number of routes = 6
+Generation 30: Best quality = 26505.94, Number of routes = 6
+Generation 31: Best quality = 25187.50, Number of routes = 6
+Generation 32: Best quality = 27162.50, Number of routes = 6
+Generation 33: Best quality = 26465.61, Number of routes = 6
+Generation 34: Best quality = 25404.59, Number of routes = 6
+Generation 35: Best quality = 25549.00, Number of routes = 6
+Generation 36: Best quality = 28225.68, Number of routes = 6
+Generation 37: Best quality = 27243.00, Number of routes = 6
+Generation 38: Best quality = 26540.60, Number of routes = 6
+Generation 39: Best quality = 25943.95, Number of routes = 6
+Generation 40: Best quality = 26386.44, Number of routes = 6
+Generation 41: Best quality = 25611.87, Number of routes = 6
+Generation 42: Best quality = 26970.72, Number of routes = 6
+Generation 43: Best quality = 26151.70, Number of routes = 6
+Generation 44: Best quality = 27492.49, Number of routes = 6
+Generation 45: Best quality = 25473.83, Number of routes = 6
+Generation 46: Best quality = 27073.65, Number of routes = 6
+Generation 47: Best quality = 27637.28, Number of routes = 6
+Generation 48: Best quality = 27310.20, Number of routes = 6
+Generation 49: Best quality = 27181.05, Number of routes = 6
+
+Best solution for PyVRP/CVRP/X-n120-k6.vrp:
+Total distance: 27181.05
+Number of routes: 6
+  Route 1: [1, np.int64(50), np.int64(44), np.int64(77), np.int64(110), np.int64(43), np.int64(65), np.int64(114), np.int64(4), np.int64(115), np.int64(79), np.int64(40), np.int64(92), np.int64(33), np.int64(55), np.int64(97), np.int64(72), np.int64(63), np.int64(41), np.int64(99), np.int64(14), np.int64(83), 1] (demand: 21.0/21)
+  Route 2: [1, np.int64(17), np.int64(11), np.int64(95), np.int64(120), np.int64(117), np.int64(51), np.int64(81), np.int64(39), np.int64(30), np.int64(22), np.int64(31), np.int64(68), np.int64(57), np.int64(38), np.int64(54), np.int64(61), np.int64(101), np.int64(78), np.int64(5), np.int64(70), np.int64(82), 1] (demand: 21.0/21)
+  Route 3: [1, np.int64(108), np.int64(53), np.int64(15), np.int64(24), np.int64(45), np.int64(59), np.int64(80), np.int64(58), np.int64(60), np.int64(23), np.int64(96), np.int64(69), np.int64(90), np.int64(6), np.int64(27), np.int64(48), np.int64(102), np.int64(52), np.int64(105), np.int64(64), np.int64(106), 1] (demand: 21.0/21)
+  Route 4: [1, np.int64(21), np.int64(89), np.int64(32), np.int64(34), np.int64(75), np.int64(111), np.int64(98), np.int64(67), np.int64(109), np.int64(47), np.int64(118), np.int64(42), np.int64(113), np.int64(13), np.int64(10), np.int64(100), np.int64(112), np.int64(73), np.int64(88), np.int64(28), np.int64(12), 1] (demand: 21.0/21)
+  Route 5: [1, np.int64(66), np.int64(87), np.int64(49), np.int64(116), np.int64(37), np.int64(16), np.int64(119), np.int64(71), np.int64(56), np.int64(46), np.int64(84), np.int64(20), np.int64(29), np.int64(19), np.int64(8), np.int64(107), np.int64(3), np.int64(18), np.int64(104), np.int64(2), np.int64(25), 1] (demand: 21.0/21)
+  Route 6: [1, np.int64(85), np.int64(62), np.int64(7), np.int64(103), np.int64(35), np.int64(93), np.int64(36), np.int64(9), np.int64(91), np.int64(86), np.int64(76), np.int64(26), np.int64(94), 74, 1] (demand: 14.0/21)
+
+============================================================
+SUMMARY OF ALL INSTANCES
+============================================================
+PyVRP/CVRP/X-n101-k25.vrp: Distance = 40594.33, Routes = 27
+PyVRP/CVRP/X-n106-k14.vrp: Distance = 32070.11, Routes = 14
+PyVRP/CVRP/X-n110-k13.vrp: Distance = 26522.11, Routes = 13
+PyVRP/CVRP/X-n115-k10.vrp: Distance = 28668.80, Routes = 10
+PyVRP/CVRP/X-n120-k6.vrp: Distance = 27181.05, Routes = 6
